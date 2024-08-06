@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Brief selection of projects.
+title: Repositories
+description: Brief selection of projects
 nav: true
 nav_order: 4
 ---
