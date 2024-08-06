@@ -101,15 +101,25 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Technology",
+      "icon": "fa-solid fa-microchip",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Software Engineering",
+        "Programming"
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "icon": "fa-solid fa-ellipsis-h",
+      "keywords": [
+        "Philosophy",
+        "Science Fiction",
+        "Metal Music",
+        "Gym",
+        "Cooking",
+        "Hiking"
       ]
     }
   ]
