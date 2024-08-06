@@ -315,8 +315,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [P{\u a}durean]
-  first_name: [Victor{-}Alexandru]
+  last_name: [Padurean]
+  first_name: [Victor-Alexandru]
 
   style: apa
   locale: en
