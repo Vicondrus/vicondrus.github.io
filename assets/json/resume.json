@@ -134,6 +134,16 @@
       "language": "English",
       "fluency": "Proficient",
       "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": ""
     }
   ],
   "interests": [

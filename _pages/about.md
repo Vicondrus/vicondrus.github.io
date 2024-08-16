@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
   
   I am fascinated by the newest advancements in AI. Currently, I am interested in leveraging generative models for enhancing and personalizing education. Our latest projects involve exercise generation and validation using LLMs and benchmarking their computational thinking capabilities.
 
-  Before life at MPI, I have previously worked as a Data Scientist for a startup.
+  Before life at MPI, I have worked as a Data Scientist for a startup.
