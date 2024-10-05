@@ -53,6 +53,13 @@
   ],
   "publications": [
     {
+      "name": "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming",
+      "authors": ["Victor-Alexandru Pădurean", "Adish Singla"],
+      "publisher": "arXiv",
+      "releaseDate": "2024.06.15",
+      "url": "https://arxiv.org/abs/2406.09891"
+   },
+    {
       "name": "Neural Task Synthesis for Visual Programming",
       "authors": ["Victor-Alexandru Pădurean", "Georgios Tzannetos", "Adish Singla"],
       "publisher": "Transations on Machine Learning Research",
