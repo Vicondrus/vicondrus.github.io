@@ -11,15 +11,26 @@ abstract  = {Generative models have demonstrated human-level proficiency in vari
 selected  = {true}
 }
 
-@article{padurean2024neural,
-abbr      = {TMLR},
-title     = {{N}eural {T}ask {S}ynthesis for {V}isual {P}rogramming},
-author    = {Victor-Alexandru Padurean and Georgios Tzannetos and Adish Singla},
-journal   = {Transactions on Machine Learning Research 2024 ({TMLR})},
+@article{padurean2024brenchmarking,
+abbr      = {NeurIPS D\&B},
+title     = {{B}enchmarking {G}enerative {M}odels on {C}omputational {T}hinking {T}ests in {E}lementary {V}isual {P}rogramming},
+author    = {Victor-Alexandru Padurean and Adish Singla},
+journal   = {Proceedings of the Annual Conference on Neural Information Processing Systems ({NeurIPS}) Track on Datasets and Benchmarks},
 year      = {2024},
-paper     = {https://arxiv.org/abs/2305.18342},
-code      = {https://github.com/machine-teaching-group/tmlr2024_neurtasksyn},
-abstract  = {Generative neural models hold great promise in enhancing programming education by synthesizing new content. We seek to design neural models that can automatically generate programming tasks for a given specification in the context of visual programming domains. Despite the recent successes of large generative models like GPT-4, our initial results show that these models are ineffective in synthesizing visual programming tasks and struggle with logical and spatial reasoning. We propose a novel neuro-symbolic technique, NeurTaskSyn, that can synthesize programming tasks for a specification given in the form of desired programming concepts exercised by its solution code and constraints on the visual task. NeurTaskSyn has two components: the first component is trained via imitation learning procedure to generate possible solution codes, and the second component is trained via reinforcement learning procedure to guide an underlying symbolic execution engine that generates visual tasks for these codes. We demonstrate the effectiveness of NeurTaskSyn through an extensive empirical evaluation and a qualitative study on reference tasks taken from the Hour of Code: Classic Maze challenge by Code.org and the Intro to Programming with Karel course by CodeHS.com.},
+paper     = {https://arxiv.org/abs/2406.09891},
+abstract  = {Generative models have demonstrated human-level proficiency in various benchmarks across domains like programming, natural sciences, and general knowledge. Despite these promising results on competitive benchmarks, they still struggle with seemingly simple problem-solving tasks typically carried out by elementary-level students. How do state-of-the-art models perform on standardized tests designed to assess computational thinking and problem-solving skills at schools? In this paper, we curate a novel benchmark involving computational thinking tests grounded in elementary visual programming domains. Our initial results show that state-of-the-art models like GPT-4o and Llama3 barely match the performance of an average school student. To further boost the performance of these models, we fine-tune them using a novel synthetic data generation methodology. The key idea is to develop a comprehensive dataset using symbolic methods that capture different skill levels, ranging from recognition of visual elements to multi-choice quizzes to synthesis-style tasks. We showcase how various aspects of symbolic information in synthetic data help improve fine-tuned models' performance. We will release the full implementation and datasets to facilitate further research on enhancing computational thinking in generative models.},
+selected  = {true}
+}
+
+
+@article{padurean2024neural,
+abbr      = {SIGCSE},
+title     = {{BugSpotter}: {A}utomated {G}eneration of {C}ode {D}ebugging {E}xercises},
+author    = {Victor-Alexandru Padurean and Paul Denny and Adish Singla},
+journal   = {Proceedings of Technical Symposium on Computer Science Education {(SIGCSE)}},
+year      = {2025},
+note      = {to appear},
+abstract  = {Debugging is an essential yet often under-emphasized skill in programming education. In the era of code-generating large language models (LLMs), the ability for students to reason about code and identify errors is increasingly important. However, students frequently resort to trial-and-error methods to resolve bugs without truly understanding the underlying issues. Developing the ability to identify and hypothesize the cause of bugs is crucial but can be time-consuming to teach effectively through traditional means. This paper introduces BugSpotter, an innovative tool that leverages an LLM to generate buggy code from a problem description and verifies the synthesized bugs via a test suite. Students interact with BugSpotter by designing failing test cases, where the buggy code's output differs from the expected result as defined by the problem specification. This not only provides opportunities for students to enhance their debugging skills, but also to practice reading and understanding problem specifications. We deployed BugSpotter in a large classroom setting and compared the debugging exercises it generated to exercises hand-crafted by an instructor for the same problems. We found that the LLM-generated exercises produced by BugSpotter varied in difficulty and were well-matched to the problem specifications. Importantly, the LLM-generated exercises were comparable to those manually created by instructors with respect to student performance, suggesting that BugSpotter could be an effective and efficient aid for learning debugging.},
 selected  = {true}
 }
 
