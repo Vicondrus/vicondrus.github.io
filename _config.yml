@@ -6,7 +6,7 @@ title: Victor Pădurean # the website title (if blank, full name will be used in
 first_name: Victor-Alexandru
 middle_name:
 last_name: Pădurean
-email: victor.padurean@yahoo.com
+email: vpadurea@mpi-sws.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a researcher and Ph.D. student working in the general area of Artificial Intelligence, lately with Large Language Models (LLMs). I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where we mainly focus our reasearch on AI-driven Education, under the supervision of [Dr. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). 
   
