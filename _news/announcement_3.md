@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-09-27 00:00:00-0000
+date: 2024-10-01 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://arxiv.org/abs/2406.09891">Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming</a> was accepted at NeurIPS'24 Datasets and Benchmarks!
+Our paper <a href="https://arxiv.org/abs/2411.14303">BugSpotter: Automated Generation of Code Debugging Exercises got accepted at SIGCSE TS 2025!

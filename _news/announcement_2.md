@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-10-01 00:00:00-0000
+date: 2024-10-05 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-Our paper BugSpotter: Automated Generation of Code Debugging Exercises got accepted at SIGCSE TS 2025!
+The Machine Teaching group is organizing a <a href="https://generative-ai.mpi-sws.org/course-genai-w24/index.html">Course on Generative AI</a> this Winter Semester (2024/25) at the Saarland University.

@@ -53,38 +53,52 @@
   ],
   "publications": [
     {
+      "name": "BugSpotter: Automated Generation of Code Debugging Exercises",
+      "authors": ["Victor-Alexandru Pădurean", "Paul Denny", "Adish Singla"],
+      "publisher": "The Technical Symposium on Computer Science Education",
+      "releaseDate": "2025.03",
+      "url": "https://arxiv.org/abs/2411.14303"
+   },
+    {
       "name": "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming",
       "authors": ["Victor-Alexandru Pădurean", "Adish Singla"],
       "publisher": "Annual Conference on Neural Information Processing Systems - Track on Datasets and Benchmarks",
-      "releaseDate": "2024.06.15",
+      "releaseDate": "2024.12",
       "url": "https://arxiv.org/abs/2406.09891"
    },
     {
       "name": "Neural Task Synthesis for Visual Programming",
       "authors": ["Victor-Alexandru Pădurean", "Georgios Tzannetos", "Adish Singla"],
       "publisher": "Transations on Machine Learning Research",
-      "releaseDate": "2024.01.16",
+      "releaseDate": "2024.01",
       "url": "https://arxiv.org/abs/2305.18342"
    },
+   {
+    "name": "Hints Help Finding and Fixing Bugs Differently in Python and Text-based Program Representations",
+    "authors": ["Ruchit Rawal", "Victor-Alexandru Pădurean", "Sven Apel", "Adish Singla", "Mariya Toneva"],
+    "publisher": "International Conference on Software Engineering",
+    "releaseDate": "2025.05",
+    "url": "https://arxiv.org/abs/2412.12471"
+ },
    {
     "name": "Automating Human Tutor-Style Programming Feedback: Leveraging GPT-4 Tutor Model for Hint Generation and GPT-3.5 Student Model for Hint Validation",
     "authors": ["Tung Phung", "Victor-Alexandru Pădurean", "Anjali Singh", "Christopher Brooks", "José Cambronero", "Sumit Gulwani", "Adish Singla", "Gustavo Soares"],
     "publisher": "Learning Analytics and Knowledge Conference",
-    "releaseDate": "2024.03.22",
+    "releaseDate": "2024.03",
     "url": "https://arxiv.org/abs/2310.03780"
  },
     {
       "name": "Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors",
       "authors": ["Tung Phung", "Victor-Alexandru Pădurean", "José Cambronero", "Sumit Gulwani", "Tobias Kohn", "Rupak Majumdar", "Adish Singla", "Gustavo Soares"],
       "publisher": "International Computing Education Research - V2",
-      "releaseDate": "2023.08.10",
+      "releaseDate": "2023.08",
       "url": "https://arxiv.org/abs/2306.17156"
    },
    {
     "name": "SRv6: Is There Anybody Out There?",
     "authors": ["Victor-Alexandru Pădurean", "Oliver Gasser", "Randy Bush", "Anja Feldmann"],
     "publisher": "Euro S&P International Workshop on Traffic Measurements",
-    "releaseDate": "2022.06.06",
+    "releaseDate": "2022.06",
     "url": "https://arxiv.org/abs/2205.04193"
  }
   ],

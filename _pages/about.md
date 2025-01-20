@@ -6,7 +6,7 @@ subtitle: Ph.D. Student at MPI-SWS
 
 profile:
   align: right
-  image: prof_pic.png
+  image: neurips-transformed.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Campus E1 5</p>
