@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-08-10 00:00:00-0000
+date: 2024-01-16 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-We presented the poster version of our paper <a href="https://arxiv.org/abs/2306.17156">Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors</a> at the ACM Conference on International Computing Education Research (ICER) 2023.
+Our paper <a href="https://x.com/TmlrPub/status/1750760534104850682">Neural Task Synthesis for Visual Programming</a> was published in Transactions on Machine Learning Research.

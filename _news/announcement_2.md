@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-10-05 00:00:00-0000
+date: 2024-12-10 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-The Machine Teaching group is organizing a <a href="https://generative-ai.mpi-sws.org/course-genai-w24/index.html">Course on Generative AI</a> this Winter Semester (2024/25) at the Saarland University.
+We presented the <a href='~/assets/pdf/benchmark-ct-poster.pdf'>poster version</a> of our paper <a href="https://arxiv.org/abs/2406.09891">Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming</a> at NeurIPS'24!
