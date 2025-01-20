@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://arxiv.org/abs/2411.14303">BugSpotter: Automated Generation of Code Debugging Exercises got accepted at SIGCSE TS 2025!
+Our paper <a href="https://arxiv.org/abs/2411.14303">BugSpotter: Automated Generation of Code Debugging Exercises</a> got accepted at SIGCSE TS 2025!
