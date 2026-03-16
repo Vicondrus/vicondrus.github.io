@@ -8,9 +8,6 @@ profile:
   align: right
   image: neurips-transformed.jpeg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>Campus E1 5</p>
-    <p>Saarbrücken, Germany 66123</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,7 +19,7 @@ service_mentorship_text: >
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student and researcher at the [Max Planck Institute for Software Systems (MPI-SWS)](https://www.mpi-sws.org/), where I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) under the supervision of [Prof. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). My research lies at the intersection of large language models, personalization, and AI for education.
+I am a Ph.D. student at the [Max Planck Institute for Software Systems (MPI-SWS)](https://www.mpi-sws.org/), where I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) under the supervision of [Prof. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). My research lies at the intersection of large language models, personalization, and AI for education.
 
 I am particularly interested in how AI can support the development of computational thinking and problem-solving skills, especially as these evolve in the age of generative AI. More broadly, I study how generative AI can make learning more effective, interactive, and personalized, while also helping us understand which skills remain important and which new ones are becoming essential.
 
