@@ -50,4 +50,48 @@ body.sticky-bottom-footer {
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.projects .project-image-wrap .card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.projects .project-image-wrap {
+  position: relative;
+}
+
+.projects .project-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110px;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.projects .project-logo-wrap .card-img-top.project-logo-img {
+  width: auto;
+  max-width: 72%;
+  max-height: 72px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.projects .project-title-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.projects .project-title-with-logo .project-title-logo {
+  height: 20px;
+  width: auto;
+  max-width: 96px;
+  flex-shrink: 0;
+}
+
+.project-detail-image {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0.5rem auto 1.25rem;
+}

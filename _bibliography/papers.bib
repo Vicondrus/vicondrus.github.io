@@ -1,5 +1,59 @@
 ---
 ---
+
+@article{padurean2025neuripsalign,
+abbr      = {NeurIPS},
+title     = {{I}nference-{T}ime {P}ersonalized {A}lignment with a {F}ew {U}ser {P}reference {Q}ueries},
+author    = {Victor-Alexandru Padurean and Parameswaran Kamalaruban and Nachiket Kotalwar and Alkis Gotovos and Adish Singla},
+journal   = {Proceedings of the Annual Conference on Neural Information Processing Systems ({NeurIPS})},
+year      = {2025},
+paper     = {https://openreview.net/pdf?id=irYb8GGDyh},
+arxiv     = {2511.02966},
+preview   = {useralign-firstpage.png},
+code      = {https://github.com/machine-teaching-group/neurips2025-useralign/},
+poster    = {useralign-poster.pdf},
+abstract  = {We study the problem of aligning a generative model's response with a user's preferences. Recent works have proposed several different formulations for personalized alignment; however, they either require a large amount of user preference queries or require that the preference be explicitly specified as a text input. In this paper, we propose a novel inference-time personalized alignment method, UserAlign, that elicits the user's preferences with a few queries as pairwise response comparisons. In particular, UserAlign builds on the theoretical framework of best-arm identification in logistic bandits and selects a personalized response from a fixed pool of the model's generated responses. The key idea is to consider the user's feedback consistent and noise-free, and incorporate it into the theoretical framework to identify the best response quickly. Experimental results across several tasks, involving personalized text and image generation, showcase the effectiveness of UserAlign in achieving personalized alignment.},
+selected  = {true}
+}
+
+@article{padurean2026interleaving,
+abbr      = {ITiCSE},
+title     = {{I}nterleaving {N}atural {L}anguage {P}rompting with {C}ode {E}diting for {S}olving {P}rogramming {T}asks with {G}enerative {AI} {M}odels},
+author    = {Victor-Alexandru Padurean and Alkis Gotovos and Ahana Ghosh and Paul Denny and Juho Leinonen and Andrew Luxton-Reilly and James Prather and Adish Singla},
+journal   = {Proceedings of the ACM Conference on Innovation and Technology in Computer Science Education ({ITiCSE})},
+year      = {2026},
+note      = {to appear},
+paper     = {https://arxiv.org/abs/2509.14088},
+arxiv     = {2509.14088},
+preview   = {interleaving-firstpage.png},
+abstract  = {Modern computing students often rely on both natural-language prompting and manual code editing to solve programming tasks. Yet we still lack a clear understanding of how these two modes are combined in practice, and how their usage varies with task complexity and student ability. In this paper, we investigate this through a large-scale study in an introductory programming course, collecting 13,305 interactions from 355 students during a three-day lab activity. Our analysis shows that students primarily use prompting to generate initial solutions, and then often enter short edit-run loops to refine their code following a failed execution. Student reflections confirm that prompting is helpful for structuring solutions, editing is effective for making targeted corrections, while both are useful for learning. We find that manual editing becomes more frequent as task complexity increases, but most edits remain concise, with many affecting a single line of code. Higher-performing students tend to succeed using prompting alone, while lower-performing students rely more on edits. These findings highlight the role of manual editing as a deliberate last-mile repair strategy, complementing prompting in AI-assisted programming workflows.},
+selected  = {true}
+}
+
+@inproceedings{padurean2021buildsys,
+abbr      = {BuildSys},
+title     = {{H}eat reuse models for liquid cooled data centers integrated with district heating},
+author    = {Victor-Alexandru Padurean and Andrei-Alexandru Cristea and Marcel Antal},
+booktitle = {Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation ({BuildSys})},
+year      = {2021},
+pages     = {188--191},
+doi       = {10.1145/3486611.3486661},
+paper     = {https://doi.org/10.1145/3486611.3486661}
+}
+
+@article{antal2021sensors,
+abbr      = {Sensors},
+title     = {{H}eating {H}omes with {S}ervers: {W}orkload {S}cheduling for {H}eat {R}euse in {D}istributed {D}ata {C}enters},
+author    = {Marcel Antal and Andrei-Alexandru Cristea and Victor-Alexandru Padurean and Tudor Cioara and Ionut Anghel and Claudia Antal and Ioan Salomie and Nicolas Saintherant},
+journal   = {Sensors},
+year      = {2021},
+volume    = {21},
+number    = {8},
+pages     = {2879},
+doi       = {10.3390/s21082879},
+paper     = {https://doi.org/10.3390/s21082879}
+}
+
 @article{padurean2025edm,
 abbr      = {EDM},
 title     = {{H}umanizing {A}utomated {P}rogramming {F}eedback: {F}ine-{T}uning {G}enerative {M}odels with {S}tudent-{W}ritten {F}eedback},
@@ -8,6 +62,7 @@ journal   = {Proceedings of the International Conference on Educational Data Min
 year      = {2025},
 paper     = {https://educationaldatamining.org/EDM2025/proceedings/2025.EDM.short-papers.35/2025.EDM.short-papers.35.pdf},
 arxiv     = {2509.10647},
+preview   = {edm-firstpage.png},
 abstract  = {The growing need for automated and personalized feedback in programming education has led to recent interest in leveraging generative AI for feedback generation. However, current approaches tend to rely on prompt engineering techniques in which predefined prompts guide the AI to generate feedback. This can result in rigid and constrained responses that fail to accommodate the diverse needs of students and do not reflect the style of human-written feedback from tutors or peers. In this study, we explore learnersourcing as a means to fine-tune language models for generating feedback that is more similar to that written by humans, particularly peer students. Specifically, we asked students to act in the flipped role of a tutor and write feedback on programs containing bugs. We collected approximately 1,900 instances of student-written feedback on multiple programming problems and buggy programs. To establish a baseline for comparison, we analyzed a sample of 300 instances based on correctness, length, and how the bugs are described. Using this data, we fine-tuned open-access generative models, specifically Llama3 and Phi3. Our findings indicate that fine-tuning models on learnersourced data not only produces feedback that better matches the style of feedback written by students, but also improves accuracy compared to feedback generated through prompt engineering alone, even though some student-written feedback is incorrect. This surprising finding highlights the potential of student-centered fine-tuning to improve automated feedback systems in programming education.},
 }
 
@@ -21,6 +76,7 @@ pages     = {77--91},
 doi       = {10.1007/978-3-031-98414-3_6},
 paper     = {https://doi.org/10.1007/978-3-031-98414-3_6},
 arxiv     = {2504.07655},
+preview   = {aied-firstpage.png},
 abstract  = {Generative AI is transforming computing education by enabling the automatic generation of personalized content and feedback. We investigate its capabilities in providing high-quality programming tasks to students. Despite promising advancements in task generation, a quality gap remains between AI-generated and expert-created tasks. The AI-generated tasks may not align with target programming concepts, could be incomprehensible for students to solve, or may contain critical issues such as incorrect tests. Existing works often require interventions from human teachers for validation. We address these challenges by introducing PyTaskSyn, a novel synthesis technique that first generates a programming task and then decides whether it meets certain quality criteria to be given to students. The key idea is to break this process into multiple stages performed by expert and student agents simulated using both strong and weaker generative models. Through extensive evaluation, we show that PyTaskSyn significantly improves task quality compared to baseline techniques and showcases the importance of each specialized agent type in our validation pipeline. Additionally, we conducted user studies using our publicly available web application and show that PyTaskSyn can deliver high-quality programming tasks comparable to expert-designed ones while reducing workload and costs, and being more engaging than programming tasks that are available in online resources.},
 }
 
@@ -36,6 +92,7 @@ paper     = {https://doi.org/10.1145/3724363.3729094},
 abstract  = {Computing students increasingly rely on generative AI tools for programming assistance, often without formal instruction or guidance. This highlights a need to teach students how to effectively interact with AI models, particularly through natural language prompts, to generate and critically evaluate code for solving computational tasks. To address this, we developed a novel platform for prompt programming that enables authentic dialogue-based interactions, supports problems involving multiple interdependent functions, and offers on-request execution of generated code. Data analysis from over 900 students in an introductory programming course revealed high engagement, with the majority of prompts occurring within multi-turn dialogues. Problems with multiple interdependent functions encouraged iterative refinement, with progression graphs highlighting several common strategies. Students were highly selective about the code they chose to test, suggesting that on-request execution of generated code promoted critical thinking. Given the growing importance of learning dialogue-based programming with AI, we provide this tool as a publicly accessible resource, accompanied by a corpus of programming problems for educational use.},
 website   = {https://www.promptprogram.org},
 arxiv     = {2503.04267},
+preview   = {prompt-programming-firstpage.png},
 selected  = {true}
 }
 
@@ -50,6 +107,7 @@ pages     = {1230--1242},
 doi       = {10.1109/ICSE55347.2025.00192},
 paper     = {https://arxiv.org/abs/2412.12471},
 arxiv     = {2412.12471},
+preview   = {hints-firstpage.png},
 abstract  = {With the recent advances in AI programming assistants such as GitHub Copilot, programming is not limited to classical programming languages anymore--programming tasks can also be expressed and solved by end-users in natural text. Despite the availability of this new programming modality, users still face difficulties with algorithmic understanding and program debugging. One promising approach to support end-users is to provide hints to help them find and fix bugs while forming and improving their programming capabilities. While it is plausible that hints can help, it is unclear which type of hint is helpful and how this depends on program representations (classic source code or a textual representation) and the user's capability of understanding the algorithmic task. To understand the role of hints in this space, we conduct a large-scale crowd-sourced study involving 753 participants investigating the effect of three types of hints (test cases, conceptual, and detailed), across two program representations (Python and text-based), and two groups of users (with clear understanding or confusion about the algorithmic task). We find that the program representation (Python vs. text) has a significant influence on the users' accuracy at finding and fixing bugs. Surprisingly, users are more accurate at finding and fixing bugs when they see the program in natural text. Hints are generally helpful in improving accuracy, but different hints help differently depending on the program representation and the user's understanding of the algorithmic task. These findings have implications for designing next-generation programming tools that provide personalized support to users, for example, by adapting the programming modality and providing hints with respect to the user's skill level and understanding.},
 }
 
@@ -61,6 +119,9 @@ journal   = {Proceedings of the Annual Conference on Neural Information Processi
 year      = {2024},
 paper     = {https://arxiv.org/abs/2406.09891},
 arxiv     = {2406.09891},
+preview   = {benchmark-ct-firstpage.png},
+code      = {https://github.com/machine-teaching-group/neurips2024-benchmark-ct},
+poster    = {benchmark-ct-poster.pdf},
 abstract  = {Generative models have demonstrated human-level proficiency in various benchmarks across domains like programming, natural sciences, and general knowledge. Despite these promising results on competitive benchmarks, they still struggle with seemingly simple problem-solving tasks typically carried out by elementary-level students. How do state-of-the-art models perform on standardized tests designed to assess computational thinking and problem-solving skills at schools? In this paper, we curate a novel benchmark involving computational thinking tests grounded in elementary visual programming domains. Our initial results show that state-of-the-art models like GPT-4o and Llama3 barely match the performance of an average school student. To further boost the performance of these models, we fine-tune them using a novel synthetic data generation methodology. The key idea is to develop a comprehensive dataset using symbolic methods that capture different skill levels, ranging from recognition of visual elements to multi-choice quizzes to synthesis-style tasks. We showcase how various aspects of symbolic information in synthetic data help improve fine-tuned models' performance. We will release the full implementation and datasets to facilitate further research on enhancing computational thinking in generative models.},
 selected  = {true}
 }
@@ -75,6 +136,7 @@ pages     = {896--902},
 doi       = {10.1145/3641554.3701974},
 paper     = {https://arxiv.org/pdf/2411.14303},
 arxiv     = {2411.14303},
+preview   = {bugspotter-firstpage.png},
 website   = {https://bugspotter.netlify.app},
 note      = {to appear},
 abstract  = {Debugging is an essential yet often under-emphasized skill in programming education. In the era of code-generating large language models (LLMs), the ability for students to reason about code and identify errors is increasingly important. However, students frequently resort to trial-and-error methods to resolve bugs without truly understanding the underlying issues. Developing the ability to identify and hypothesize the cause of bugs is crucial but can be time-consuming to teach effectively through traditional means. This paper introduces BugSpotter, an innovative tool that leverages an LLM to generate buggy code from a problem description and verifies the synthesized bugs via a test suite. Students interact with BugSpotter by designing failing test cases, where the buggy code's output differs from the expected result as defined by the problem specification. This not only provides opportunities for students to enhance their debugging skills, but also to practice reading and understanding problem specifications. We deployed BugSpotter in a large classroom setting and compared the debugging exercises it generated to exercises hand-crafted by an instructor for the same problems. We found that the LLM-generated exercises produced by BugSpotter varied in difficulty and were well-matched to the problem specifications. Importantly, the LLM-generated exercises were comparable to those manually created by instructors with respect to student performance, suggesting that BugSpotter could be an effective and efficient aid for learning debugging.},
@@ -89,6 +151,7 @@ journal   = {Transactions on Machine Learning Research ({TMLR})},
 year      = {2024},
 paper     = {https://arxiv.org/abs/2305.18342},
 arxiv     = {2305.18342},
+preview   = {neural-task-synthesis-firstpage.png},
 code      = {https://github.com/machine-teaching-group/tmlr2024_neurtasksyn},
 abstract  = {Generative neural models hold great promise in enhancing programming education by synthesizing new content. We seek to design neural models that can automatically generate programming tasks for a given specification in the context of visual programming domains. Despite the recent successes of large generative models like GPT-4, our initial results show that these models are ineffective in synthesizing visual programming tasks and struggle with logical and spatial reasoning. We propose a novel neuro-symbolic technique, NeurTaskSyn, that can synthesize programming tasks for a specification given in the form of desired programming concepts exercised by its solution code and constraints on the visual task. NeurTaskSyn has two components: the first component is trained via imitation learning procedure to generate possible solution codes, and the second component is trained via reinforcement learning procedure to guide an underlying symbolic execution engine that generates visual tasks for these codes. We demonstrate the effectiveness of NeurTaskSyn through an extensive empirical evaluation and a qualitative study on reference tasks taken from the Hour of Code: Classic Maze challenge by Code.org and the Intro to Programming with Karel course by CodeHS.com.},
 selected  = {true}
@@ -112,6 +175,8 @@ selected  = {true}
   paper         = {https://dl.acm.org/doi/10.1145/3636555.3636846},
   arxiv         = {2310.03780},
   abstract      = {Generative AI and large language models hold great promise in enhancing programming education by automatically generating individualized feedback for students. We investigate the role of generative AI models in providing human tutor-style programming hints to help students resolve errors in their buggy programs. Recent works have benchmarked state-of-the-art models for various feedback generation scenarios; however, their overall quality is still inferior to human tutors and not yet ready for real-world deployment. In this paper, we seek to push the limits of generative AI models toward providing high-quality programming hints and develop a novel technique, GPT4Hints-GPT3.5Val. As a first step, our technique leverages GPT-4 as a ``tutor'' model to generate hints -- it boosts the generative quality by using symbolic information of failing test cases and fixes in prompts. As a next step, our technique leverages GPT-3.5, a weaker model, as a ``student'' model to further validate the hint quality -- it performs an automatic quality validation by simulating the potential utility of providing this feedback. We show the efficacy of our technique via extensive evaluation using three real-world datasets of Python programs covering a variety of concepts ranging from basic algorithms to regular expressions and data analysis using pandas library.},
+  preview       = {lak-firstpage.png},
+
 }
 
 @article{DBLP:journals/corr/abs-2306-17156,
@@ -129,5 +194,20 @@ selected  = {true}
   year          = {2023},
   paper         = {https://arxiv.org/abs/2306.17156},
   arxiv         = {2306.17156},
-  abstract      = {Generative AI and large language models hold great promise in enhancing computing education by powering next-generation educational technologies for introductory programming. Recent works have studied these models for different scenarios relevant to programming education; however, these works are limited for several reasons, as they typically consider already outdated models or only specific scenario(s). Consequently, there is a lack of a systematic study that benchmarks state-of-the-art models for a comprehensive set of programming education scenarios. In our work, we systematically evaluate two models, ChatGPT (based on GPT-3.5) and GPT-4, and compare their performance with human tutors for a variety of scenarios. We evaluate using five introductory Python programming problems and real-world buggy programs from an online platform, and assess performance using expert-based annotations. Our results show that GPT-4 drastically outperforms ChatGPT (based on GPT-3.5) and comes close to human tutors' performance for several scenarios. These results also highlight settings where GPT-4 still struggles, providing exciting future directions on developing techniques to improve the performance of these models.}
+  abstract      = {Generative AI and large language models hold great promise in enhancing computing education by powering next-generation educational technologies for introductory programming. Recent works have studied these models for different scenarios relevant to programming education; however, these works are limited for several reasons, as they typically consider already outdated models or only specific scenario(s). Consequently, there is a lack of a systematic study that benchmarks state-of-the-art models for a comprehensive set of programming education scenarios. In our work, we systematically evaluate two models, ChatGPT (based on GPT-3.5) and GPT-4, and compare their performance with human tutors for a variety of scenarios. We evaluate using five introductory Python programming problems and real-world buggy programs from an online platform, and assess performance using expert-based annotations. Our results show that GPT-4 drastically outperforms ChatGPT (based on GPT-3.5) and comes close to human tutors' performance for several scenarios. These results also highlight settings where GPT-4 still struggles, providing exciting future directions on developing techniques to improve the performance of these models.},
+  preview       = {icer-firstpage.png},
+
+}
+
+@article{padurean2022srv6,
+abbr      = {ESSPW (EuroS&P)},
+title     = {{SRv6}: {I}s {T}here {A}nybody {O}ut {T}here?},
+author    = {Victor-Alexandru Padurean and Oliver Gasser and Randy Bush and Anja Feldmann},
+journal   = {Proceedings of the IEEE European Symposium on Security and Privacy Workshops ({EuroS&P Workshops})},
+year      = {2022},
+pages     = {252--257},
+doi       = {10.1109/EuroSPW55150.2022.00031},
+paper     = {https://doi.org/10.1109/EuroSPW55150.2022.00031},
+preview   = {srv6-firstpage.png},
+arxiv     = {2205.04193}
 }

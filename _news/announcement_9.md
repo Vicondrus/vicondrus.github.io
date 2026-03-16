@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <strong>Inference-Time Personalized Alignment with a Few User Preference Queries</strong> was accepted at <strong>NeurIPS 2025</strong>!
+Our paper <a href="https://openreview.net/pdf?id=irYb8GGDyh">Inference-Time Personalized Alignment with a Few User Preference Queries</a> was accepted at NeurIPS 2025.

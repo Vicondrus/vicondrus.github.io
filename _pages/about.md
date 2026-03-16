@@ -14,11 +14,18 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+projects: true # includes featured project cards
+service_mentorship: true # includes mentoring section
+service_mentorship_text: >
+  Through the MPI-SWS Mentorship for Relief program, I mentor [Othman Shbeir](https://othman-shbeir.github.io/)
+  on academic opportunities and career development.
 social: true # includes social icons at the bottom of the page
 ---
 
-  I am a researcher and Ph.D. student working in the general area of Artificial Intelligence, lately with Large Language Models (LLMs). I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where we mainly focus our research on AI-driven Education, under the supervision of [Prof. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). 
-  
-  I am fascinated by the newest advancements in AI. Currently, I am interested in leveraging generative models for enhancing and personalizing education. Our latest projects involve exercise generation and validation using LLMs and benchmarking generative AI models' computational thinking capabilities.
+I am a Ph.D. student and researcher at the [Max Planck Institute for Software Systems (MPI-SWS)](https://www.mpi-sws.org/), where I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) under the supervision of [Prof. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). My research lies at the intersection of large language models, personalization, and AI for education.
 
-  Before life at MPI, I have worked as a Data Scientist for a startup.
+I am particularly interested in how AI can support the development of computational thinking and problem-solving skills, especially as these evolve in the age of generative AI. More broadly, I study how generative AI can make learning more effective, interactive, and personalized, while also helping us understand which skills remain important and which new ones are becoming essential.
+
+My recent work has explored dialogue-based problem solving with generative models, the generation and validation of educational exercises, automated feedback and debugging support for programming tasks, and the evaluation of generative AI systems on educational and problem-solving tasks. I am also interested in how AI systems can adapt to individual users and better reflect their preferences.
+
+Alongside my academic research, I recently completed a Research Scientist Internship at Amazon, where I worked on retrieval and knowledge curation components for agentic AI systems. Before joining MPI, I worked as a Data Scientist in industry.

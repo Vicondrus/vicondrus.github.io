@@ -1,18 +1,23 @@
 {
   "basics": {
     "name": "Victor-Alexandru Pădurean",
-    "label": "Ph.D. Student",
+    "label": "Ph.D. Researcher",
     "email": "vpadurea@mpi-sws.org",
-    "url": "https://vicondrus.github.io"
+    "url": "https://vicondrus.github.io",
+    "summary": "Ph.D. researcher at the Max Planck Institute for Software Systems working on large language models, personalization, and AI for education, with a focus on building and evaluating practical AI systems."
   },
   "education": [
     {
       "institution": "Max Planck Institute for Software Systems / Saarland University",
       "location": "Saarbrücken, Germany",
       "url": "https://www.cis.mpg.de/cs-max-planck/",
-      "area": "Machine Teaching",
+      "area": "Computer Science",
       "studyType": "Ph.D.",
-      "startDate": "2021-09-20"
+      "startDate": "2021-09-20",
+      "courses": [
+        "Supervisor: Prof. Adish Singla",
+        "CS@max planck program"
+      ]
     },
     {
       "institution": "Technical University of Cluj-Napoca",
@@ -22,133 +27,348 @@
       "studyType": "B.Sc.",
       "startDate": "2017-10-01",
       "endDate": "2021-07-01",
-      "score": "valedictorian"
+      "score": "valedictorian",
+      "courses": [
+        "GPA: 10.0/10.0",
+        "Thesis: Thermal Flexibility Estimation for Server-Heaters",
+        "Advisor: Dr. Marcel Antal"
+      ]
     }
   ],
   "work": [
+    {
+      "name": "Amazon Italy (Milan)",
+      "position": "Research Scientist Intern",
+      "location": "Milan, Italy",
+      "url": "https://www.amazon.jobs/",
+      "startDate": "2025-09-01",
+      "endDate": "2026-01-31",
+      "highlights": [
+        "Designed and implemented a knowledge curation pipeline for agentic systems, integrating graph-based RAG, multimodal document processing, and live retrieval.",
+        "Evaluated retrieval strategies across benchmarks and modalities, helping guide architecture choices for production-oriented deployment.",
+        "Built components using AWS Bedrock, LangChain, LightRAG, and SCIP."
+      ],
+      "summary": "Worked on knowledge curation for production-oriented agentic systems."
+    },
     {
       "name": "Linnify",
       "position": "Data Scientist",
       "url": "https://www.linnify.com/",
       "startDate": "2020-10-01",
       "endDate": "2022-11-01",
-      "summary": "Researching and developing approaches for correlating workplace data with employee stress levels."
+      "highlights": [
+        "Researched machine learning approaches for correlating workplace behavioral data with employee stress indicators.",
+        "Contributed to early-stage data science development and experimentation."
+      ],
+      "location": "Romania",
+      "summary": "Researched machine learning approaches for correlating workplace behavioral data with employee stress indicators."
     },
     {
       "name": "Linnify",
-      "position": "Summer Intern",
+      "position": "Backend Developer Intern",
       "url": "https://www.linnify.com/",
       "startDate": "2020-07-01",
       "endDate": "2020-08-01",
-      "summary": "Working as a Backend Developer to develop and deploy an internal tool for project managing and socializing."
+      "highlights": [
+        "Developed and deployed an internal tool for project management and team collaboration in a Scrum-based workflow.",
+        "Worked with Python, Django, PostgreSQL, Docker, Bitbucket Pipelines, and Google Cloud."
+      ],
+      "location": "Romania",
+      "summary": "Developed and deployed an internal tool for project management and team collaboration in a Scrum-based workflow."
     },
     {
       "name": "Montran Corporation",
-      "position": "Summer Intern",
+      "position": "Full Stack Developer Intern",
       "url": "https://www.montran.com/",
       "startDate": "2019-07-01",
       "endDate": "2019-08-01",
-      "summary": "Working as a Full-stack Developer to develop a banking web application."
+      "highlights": [
+        "Contributed to the development of a banking web application.",
+        "Worked with Java, Spring, MySQL, MongoDB, and Maven."
+      ],
+      "location": "Romania",
+      "summary": "Contributed to the development of a banking web application."
+    }
+  ],
+  "teaching": [
+    {
+      "organization": "Saarland University",
+      "position": "Teaching Assistant",
+      "summary": "Generative AI",
+      "startDate": "2024-10-01",
+      "endDate": "2025-02-28",
+      "highlights": [
+        "Winter Semester 2024/25"
+      ]
+    },
+    {
+      "organization": "Saarland University",
+      "position": "Teaching Assistant",
+      "summary": "Advanced Course on Reinforcement Learning",
+      "startDate": "2022-10-01",
+      "endDate": "2023-02-28",
+      "highlights": [
+        "Winter Semester 2022/23"
+      ]
+    },
+    {
+      "organization": "Saarland University",
+      "position": "Teaching Assistant",
+      "summary": "Data Networks",
+      "startDate": "2022-04-01",
+      "endDate": "2022-07-31",
+      "highlights": [
+        "Summer Semester 2022"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Prompt Programming: A Platform for Dialogue-based Computational Problem Solving with Generative AI Models",
-      "authors": ["Victor-Alexandru Pădurean", "Paul Denny", "Alkis Gotovos", "Adish Singla"],
-      "publisher": "Proceedings of ITiCSE (Vol. 1), ACM",
-      "releaseDate": "2025.07",
-      "url": "https://doi.org/10.1145/3724363.3729094"
-    },
-    {
-      "name": "BugSpotter: Automated Generation of Code Debugging Exercises",
-      "authors": ["Victor-Alexandru Pădurean", "Paul Denny", "Adish Singla"],
-      "publisher": "The Technical Symposium on Computer Science Education (SIGCSE TS), ACM",
-      "releaseDate": "2025.03",
-      "url": "https://arxiv.org/abs/2411.14303"
-    },
-    {
-      "name": "Hints Help Finding and Fixing Bugs Differently in Python and Text-based Program Representations",
-      "authors": ["Ruchit Rawal", "Victor-Alexandru Pădurean", "Sven Apel", "Adish Singla", "Mariya Toneva"],
-      "publisher": "International Conference on Software Engineering (ICSE)",
-      "releaseDate": "2025.05",
-      "url": "https://arxiv.org/abs/2412.12471"
+      "name": "Interleaving Natural Language Prompting with Code Editing for Solving Programming Tasks with Generative AI Models",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Alkis Gotovos",
+        "Ahana Ghosh",
+        "Paul Denny",
+        "Juho Leinonen",
+        "Andrew Luxton-Reilly",
+        "James Prather",
+        "Adish Singla"
+      ],
+      "publisher": "To appear in ITiCSE, 2026.",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2509.14088"
     },
     {
       "name": "Synthesizing High-Quality Programming Tasks with LLM-Based Expert and Student Agents",
-      "authors": ["Manh Hung Nguyen", "Victor-Alexandru Pădurean", "Alkis Gotovos", "Sebastian Tschiatschek", "Adish Singla"],
-      "publisher": "Artificial Intelligence in Education (AIED), LNCS 15877, Springer",
-      "releaseDate": "2025.07",
+      "authors": [
+        "Manh Hung Nguyen",
+        "Victor-Alexandru Pădurean",
+        "Alkis Gotovos",
+        "Sebastian Tschiatschek",
+        "Adish Singla"
+      ],
+      "publisher": "In AIED, 2025.",
+      "releaseDate": "2025",
       "url": "https://doi.org/10.1007/978-3-031-98414-3_6"
     },
     {
+      "name": "Prompt Programming: A Platform for Dialogue-based Computational Problem Solving with Generative AI Models",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Paul Denny",
+        "Alkis Gotovos",
+        "Adish Singla"
+      ],
+      "publisher": "In ITiCSE, 2025.",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1145/3724363.3729094"
+    },
+    {
+      "name": "Inference-Time Personalized Alignment with a Few User Preference Queries",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Parameswaran Kamalaruban",
+        "Nachiket Kotalwar",
+        "Alkis Gotovos",
+        "Adish Singla"
+      ],
+      "publisher": "In NeurIPS, 2025.",
+      "releaseDate": "2025",
+      "url": "https://openreview.net/pdf?id=irYb8GGDyh"
+    },
+    {
       "name": "Humanizing Automated Programming Feedback: Fine-Tuning Generative Models with Student-Written Feedback",
-      "authors": ["Victor-Alexandru Pădurean", "Tung Phung", "Nachiket Kotalwar", "Michael Liut", "Juho Leinonen", "Paul Denny", "Adish Singla"],
-      "publisher": "International Conference on Educational Data Mining (EDM), Short Paper Track",
-      "releaseDate": "2025.07",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Tung Phung",
+        "Nachiket Kotalwar",
+        "Michael Liut",
+        "Juho Leinonen",
+        "Paul Denny",
+        "Adish Singla"
+      ],
+      "publisher": "In EDM, 2025.",
+      "releaseDate": "2025",
       "url": "https://educationaldatamining.org/2025.EDM.short-papers.35/index.html"
     },
     {
-      "name": "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming",
-      "authors": ["Victor-Alexandru Pădurean", "Adish Singla"],
-      "publisher": "NeurIPS Datasets and Benchmarks",
-      "releaseDate": "2024.12",
-      "url": "https://arxiv.org/abs/2406.09891"
+      "name": "Hints Help Finding and Fixing Bugs Differently in Python and Text-based Program Representations",
+      "authors": [
+        "Ruchit Rawal",
+        "Victor-Alexandru Pădurean",
+        "Sven Apel",
+        "Adish Singla",
+        "Mariya Toneva"
+      ],
+      "publisher": "In ICSE, 2025.",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2412.12471"
+    },
+    {
+      "name": "BugSpotter: Automated Generation of Code Debugging Exercises",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Paul Denny",
+        "Adish Singla"
+      ],
+      "publisher": "In SIGCSE TS, 2025.",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2411.14303"
     },
     {
       "name": "Neural Task Synthesis for Visual Programming",
-      "authors": ["Victor-Alexandru Pădurean", "Georgios Tzannetos", "Adish Singla"],
-      "publisher": "Transactions on Machine Learning Research",
-      "releaseDate": "2024.01",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Georgios Tzannetos",
+        "Adish Singla"
+      ],
+      "publisher": "In TMLR, 2024.",
+      "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2305.18342"
     },
     {
+      "name": "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Adish Singla"
+      ],
+      "publisher": "In NeurIPS Datasets and Benchmarks Track, 2024.",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2406.09891"
+    },
+    {
+      "name": "Automating Human Tutor-Style Programming Feedback: Leveraging GPT-4 Tutor Model for Hint Generation and GPT-3.5 Student Model for Hint Validation",
+      "authors": [
+        "Tung Phung",
+        "Victor-Alexandru Pădurean",
+        "Anjali Singh",
+        "Christopher Brooks",
+        "José Cambronero",
+        "Sumit Gulwani",
+        "Adish Singla",
+        "Gustavo Soares"
+      ],
+      "publisher": "In LAK, 2024.",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1145/3636555.3636846"
+    },
+    {
+      "name": "Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors",
+      "authors": [
+        "Tung Phung",
+        "Victor-Alexandru Pădurean",
+        "José Cambronero",
+        "Sumit Gulwani",
+        "Tobias Kohn",
+        "Rupak Majumdar",
+        "Adish Singla",
+        "Gustavo Soares"
+      ],
+      "publisher": "In ICER (Volume 2), 2023.",
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.1145/3568812.3603476"
+    },
+    {
       "name": "SRv6: Is There Anybody Out There?",
-      "authors": ["Victor-Alexandru Pădurean", "Oliver Gasser", "Randy Bush", "Anja Feldmann"],
-      "publisher": "EuroS&P International Workshop on Traffic Measurements (WTM), IEEE",
-      "releaseDate": "2022.06",
-      "url": "https://arxiv.org/abs/2205.04193"
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Oliver Gasser",
+        "Randy Bush",
+        "Anja Feldmann"
+      ],
+      "publisher": "In EuroS&P Workshops, 2022.",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1109/EuroSPW55150.2022.00031"
+    },
+    {
+      "name": "Heating Homes with Servers: Workload Scheduling for Heat Reuse in Distributed Data Centers",
+      "authors": [
+        "Marcel Antal",
+        "Andrei-Alexandru Cristea",
+        "Victor-Alexandru Pădurean",
+        "Tudor Cioara",
+        "Ionut Anghel",
+        "Claudia Antal",
+        "Ioan Salomie",
+        "Nicolas Saintherant"
+      ],
+      "publisher": "In Sensors, 2021.",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.3390/s21082879"
+    },
+    {
+      "name": "Heat reuse models for liquid cooled data centers integrated with district heating",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Andrei-Alexandru Cristea",
+        "Marcel Antal"
+      ],
+      "publisher": "In BuildSys, 2021.",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.1145/3486611.3486661"
     }
   ],
   "skills": [
     {
       "name": "Programming",
-      "level": "Master",
+      "level": "Advanced",
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
-        "PyTorch",
-        "Django",
+        "Java",
         "JavaScript",
-        "React",
-        "LaTeX",
-        "Docker",
-        "Git",
-        "Linux"
+        "SQL",
+        "C"
       ]
     },
     {
-      "name": "Artificial Intelligence",
-      "level": "Master",
+      "name": "ML / GenAI",
+      "level": "Advanced",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "Deep Learning",
-        "Generative Models",
-        "Language Models",
-        "Reinforcement Learning"
+        "PyTorch",
+        "TensorFlow/Keras",
+        "Hugging Face Transformers",
+        "Retrieval-Augmented Generation",
+        "LangChain",
+        "LangGraph",
+        "LightRAG"
       ]
     },
     {
-      "name": "Soft Skills",
-      "level": "Master",
-      "icon": "fa-solid fa-handshake",
+      "name": "Data / Databases",
+      "level": "Advanced",
+      "icon": "fa-solid fa-database",
       "keywords": [
-        "Motivation",
-        "Teamwork",
-        "Communication",
-        "Time Management",
-        "Problem Solving",
-        "Presenting",
-        "Writing"
+        "NumPy",
+        "Pandas",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Advanced",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": [
+        "Django",
+        "React",
+        "Spring"
+      ]
+    },
+    {
+      "name": "Tools / Cloud",
+      "level": "Advanced",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Linux",
+        "AWS Bedrock",
+        "Google Cloud",
+        "LaTeX"
       ]
     }
   ],
@@ -160,29 +380,32 @@
     },
     {
       "language": "English",
-      "fluency": "Proficient",
+      "fluency": "Proficient (C2)",
       "icon": ""
     },
     {
       "language": "French",
-      "fluency": "Intermediate",
+      "fluency": "Intermediate (B1)",
       "icon": ""
     },
     {
       "language": "German",
-      "fluency": "Beginner",
+      "fluency": "Beginner (A1/A2)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "Research Interests",
       "icon": "fa-solid fa-microchip",
       "keywords": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Software Engineering",
-        "Programming"
+        "GenAI",
+        "RAG",
+        "Multimodal AI",
+        "Personalization",
+        "Human-AI Interaction",
+        "AI Evaluation",
+        "AI for Education"
       ]
     },
     {
@@ -195,6 +418,32 @@
         "Gym",
         "Cooking",
         "Hiking"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Valedictorian, Computer Science - English Study Program",
+      "awarder": "Technical University of Cluj-Napoca",
+      "date": "2021"
+    }
+  ],
+  "service": [
+    {
+      "organization": "Research Community",
+      "position": "Reviewer",
+      "summary": "NeurIPS 2025, TMLR 2025, ITiCSE 2025, ISSEP 2025",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "highlights": []
+    },
+    {
+      "organization": "Mentorship for Relief Program, MPI-SWS",
+      "position": "Mentor",
+      "summary": "Mentoring Othman Shbeir",
+      "startDate": "2024-01-01",
+      "highlights": [
+        "2024 - ongoing"
       ]
     }
   ]

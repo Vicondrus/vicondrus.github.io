@@ -46,6 +46,11 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
+      {% if site.announcements.limit %}
+        <div class="text-right mt-2">
+          <a href="{{ '/news/' | relative_url }}">See all news</a>
+        </div>
+      {% endif %}
     {% endif %}
 
     <!-- Latest posts -->
@@ -56,6 +61,21 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Projects -->
+    {% if page.projects and site.projects %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+      </h2>
+      <div class="projects">
+        <div class="row row-cols-1 row-cols-md-2">
+          {% assign sorted_projects = site.projects | sort: 'importance' | reverse %}
+          {% for project in sorted_projects limit: 5 %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -64,6 +84,11 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Service & Mentorship -->
+    {% if page.service_mentorship and page.service_mentorship_text %}
+      <h2>service & mentorship</h2>
+      <p>{{ page.service_mentorship_text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
     <!-- Social -->
     {% if page.social %}
       <div class="social">

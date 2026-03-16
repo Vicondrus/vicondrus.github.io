@@ -2,19 +2,37 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        <div class="{% if project.logo %}project-logo-wrap{% else %}project-image-wrap{% endif %}">
+          {% assign img_class = 'card-img-top' %}
+          {% if project.logo %}
+            {% assign img_class = 'card-img-top project-logo-img' %}
+          {% endif %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt="project thumbnail"
+            class=img_class
+          %}
+        </div>
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h2 class="card-title project-title-with-logo">
+          {% if project.logo_img %}
+            <img class="project-title-logo" src="{{ project.logo_img | relative_url }}" alt="{{ project.title }} logo" />
+          {% endif %}
+          <span>{{ project.title }}</span>
+        </h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
+          {% if project.website %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Project Website">
+                <a href="{{ project.website }}"><i class="fa-solid fa-globe"></i></a>
+              </div>
+            </div>
+          {% endif %}
           {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">

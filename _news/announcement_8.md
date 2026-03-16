@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Tomorrow I start my internship at <strong>Amazon Italy (Milan)</strong>. Excited to collaborate with the team and tackle new challenges!
+Tomorrow I start my internship at Amazon Italy (Milan). Excited to collaborate with the team and tackle new challenges!
