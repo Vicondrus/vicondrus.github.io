@@ -47,4 +47,4 @@ Disallow:
 User-agent: *
 Disallow:
 
-Sitemap: https://vicondrus.github.io/sitemap.xml
+Sitemap: https://victorpadurean.com/sitemap.xml
