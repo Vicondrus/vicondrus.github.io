@@ -7,14 +7,9 @@ first_name: Victor-Alexandru
 middle_name:
 last_name: Pădurean
 email: vpadurea@mpi-sws.org
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Ph.D. student and researcher at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where I am part of the [Machine Teaching Group](https://machineteaching.mpi-sws.org/) under the supervision of [Prof. Adish Singla](https://machineteaching.mpi-sws.org/adishsingla.html). My research lies at the intersection of large language models, personalization, and AI for education.
-  
-  I am particularly interested in how AI can support the development of computational thinking and problem-solving skills, especially as these evolve in the age of generative AI. More broadly, I study how generative AI can make learning more effective, interactive, and personalized, while also helping us understand which skills remain important and which new ones are becoming essential.
-
-  My recent work has explored dialogue-based problem solving with generative models, the generation and validation of educational exercises, automated feedback and debugging support for programming tasks, and the evaluation of generative AI systems on educational and problem-solving tasks. I am also interested in how AI systems can adapt to individual users and better reflect their preferences.
-
-  Alongside my academic research, I recently completed a Research Scientist Internship at Amazon, where I worked on retrieval and knowledge curation components for agentic AI systems. Before joining MPI, I worked as a Data Scientist in industry.
+description: >
+  Ph.D. candidate at MPI-SWS working on generative AI, personalization,
+  human-AI interaction, agentic systems, and AI-assisted programming.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -94,7 +89,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: victor-padurean # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: 0009-0000-7903-6054 # your ORCID ID
+orcid_id: 0009-0004-2998-096X # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -614,11 +609,11 @@ jekyll_get_json:
 jsonresume:
   - basics
   - work
+  - projects
   - teaching
   - service
   - education
   - publications
-  - projects
   - volunteer
   - awards
   - certificates

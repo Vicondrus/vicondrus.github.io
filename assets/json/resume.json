@@ -1,51 +1,68 @@
 {
   "basics": {
     "name": "Victor-Alexandru Pădurean",
-    "label": "Ph.D. Student",
+    "label": "Ph.D. Candidate",
     "email": "vpadurea@mpi-sws.org",
     "url": "https://victorpadurean.com",
-    "summary": "Ph.D. student at the Max Planck Institute for Software Systems working on large language models, personalization, and AI for education, with a focus on building and evaluating practical AI systems."
+    "summary": "Ph.D. candidate at the Max Planck Institute for Software Systems researching how humans and AI can work better together. I build and evaluate GenAI systems spanning personalization, model adaptation, agentic pipelines, automated evaluation, and interactive AI tools, combining technical development with large-scale human studies."
   },
   "education": [
     {
       "institution": "Max Planck Institute for Software Systems / Saarland University",
-      "location": "Saarbrücken, Germany",
-      "url": "https://www.cis.mpg.de/cs-max-planck/",
-      "area": "Computer Science",
-      "studyType": "Ph.D.",
-      "startDate": "2021-09-20",
+      "location": "Germany",
+      "url": "https://www.mpi-sws.org/",
+      "area": "Computer Science, Machine Teaching Group",
+      "studyType": "Ph.D. candidate",
+      "startDate": "2023-06-01",
       "courses": [
-        "Supervisor: Prof. Adish Singla",
-        "CS@max planck program"
+        "Advisor: Prof. Adish Singla"
       ]
     },
     {
+      "institution": "CS@max planck Program",
+      "location": "Germany",
+      "url": "https://www.cis.mpg.de/cs-max-planck/",
+      "area": "",
+      "studyType": "Preparatory / course phase",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-30",
+      "courses": []
+    },
+    {
       "institution": "Technical University of Cluj-Napoca",
-      "location": "Cluj-Napoca, Romania",
+      "location": "Romania",
       "url": "https://www.utcluj.ro/en/",
-      "area": "Computer Science",
+      "area": "Computer Science, GPA 10.0/10.0",
       "studyType": "B.Sc.",
       "startDate": "2017-10-01",
-      "endDate": "2021-07-01",
-      "score": "valedictorian",
+      "endDate": "2021-06-30",
       "courses": [
-        "GPA: 10.0/10.0",
-        "Thesis: Thermal Flexibility Estimation for Server-Heaters",
-        "Advisor: Dr. Marcel Antal"
+        "Valedictorian, Computer Science English Study Program"
       ]
     }
   ],
   "work": [
     {
-      "name": "Amazon Italy (Milan)",
+      "name": "Max Planck Institute for Software Systems",
+      "position": "Doctoral Researcher",
+      "location": "Saarbrücken, Germany",
+      "url": "https://www.mpi-sws.org/",
+      "startDate": "2023-06-01",
+      "highlights": [
+        "Build and evaluate GenAI systems for human-AI interaction, spanning fine-tuning, agentic generation, automated verification, and interactive AI tools.",
+        "Research published at NeurIPS, TMLR, ICSE, SIGCSE, ITiCSE, EDM, AIED, LAK, and ICER."
+      ]
+    },
+    {
+      "name": "Amazon",
       "position": "Research Scientist Intern",
       "location": "Milan, Italy",
       "url": "https://www.amazon.jobs/",
       "startDate": "2025-09-01",
       "endDate": "2026-01-31",
       "highlights": [
-        "Designed and implemented a knowledge curation pipeline for agentic systems, integrating graph-based RAG, multimodal document processing, and live retrieval.",
-        "Evaluated retrieval strategies across benchmarks and modalities, helping guide architecture choices for production-oriented deployment.",
+        "Designed and implemented a knowledge-curation pipeline for AI systems integrating graph-based RAG, code ingestion, multimodal processing, and live retrieval.",
+        "Evaluated retrieval strategies across curated benchmarks and modalities to inform architecture choices for production-oriented deployment.",
         "Built components using AWS Bedrock, LangChain, LightRAG, and SCIP."
       ],
       "summary": "Worked on knowledge curation for production-oriented agentic systems."
@@ -60,7 +77,7 @@
         "Researched machine learning approaches for correlating workplace behavioral data with employee stress indicators.",
         "Contributed to early-stage data science development and experimentation."
       ],
-      "location": "Romania",
+      "location": "Cluj-Napoca, Romania",
       "summary": "Researched machine learning approaches for correlating workplace behavioral data with employee stress indicators."
     },
     {
@@ -73,7 +90,7 @@
         "Developed and deployed an internal tool for project management and team collaboration in a Scrum-based workflow.",
         "Worked with Python, Django, PostgreSQL, Docker, Bitbucket Pipelines, and Google Cloud."
       ],
-      "location": "Romania",
+      "location": "Cluj-Napoca, Romania",
       "summary": "Developed and deployed an internal tool for project management and team collaboration in a Scrum-based workflow."
     },
     {
@@ -86,43 +103,64 @@
         "Contributed to the development of a banking web application.",
         "Worked with Java, Spring, MySQL, MongoDB, and Maven."
       ],
-      "location": "Romania",
+      "location": "Cluj-Napoca, Romania",
       "summary": "Contributed to the development of a banking web application."
     }
   ],
-  "teaching": [
+  "projects": [
     {
-      "organization": "Saarland University",
-      "position": "Teaching Assistant",
-      "summary": "Generative AI",
-      "startDate": "2024-10-01",
-      "endDate": "2025-02-28",
+      "name": "UserAlign",
+      "url": "https://openreview.net/pdf?id=irYb8GGDyh",
+      "summary": "NeurIPS 2025",
       "highlights": [
-        "Winter Semester 2024/25"
+        "Developed an inference-time personalization method using best-arm identification in logistic bandits to identify preferred text and image outputs from few pairwise comparisons.",
+        "Evaluated with 960 human participants across text and image generation, outperforming baselines at matched interaction budgets."
       ]
     },
     {
-      "organization": "Saarland University",
-      "position": "Teaching Assistant",
-      "summary": "Advanced Course on Reinforcement Learning",
-      "startDate": "2022-10-01",
-      "endDate": "2023-02-28",
+      "name": "Benchmark-CT / LlamaCT",
+      "url": "https://arxiv.org/abs/2406.09891",
+      "summary": "NeurIPS Datasets and Benchmarks 2024",
       "highlights": [
-        "Winter Semester 2022/23"
+        "Curated a multimodal benchmark comparing generative models with school students on computational reasoning in visual programming.",
+        "Generated 100k+ symbolic training examples and LoRA-fine-tuned Llama3-8B, improving overall accuracy from 22.9% to 53.0%."
       ]
     },
     {
-      "organization": "Saarland University",
-      "position": "Teaching Assistant",
-      "summary": "Data Networks",
-      "startDate": "2022-04-01",
-      "endDate": "2022-07-31",
+      "name": "Prompt Programming",
+      "url": "https://www.promptprogram.org/",
+      "summary": "ITiCSE 2025-26; ICER 2026",
       "highlights": [
-        "Summer Semester 2022"
+        "Built a public GenAI programming platform supporting multi-turn dialogue, code editing, execution, and automated testing.",
+        "Deployed across three university cohorts with 2,100+ students to study prompting, code editing, debugging, verification, and voice interaction."
+      ]
+    },
+    {
+      "name": "BugSpotter",
+      "url": "https://doi.org/10.1145/3641554.3701974",
+      "summary": "SIGCSE 2025",
+      "highlights": [
+        "Built an LLM pipeline that generates debugging exercises from specifications and automatically verifies synthesized bugs using executable test suites.",
+        "Deployed with 741 CS1 students; generated exercises varied in difficulty and achieved comparable student performance to instructor-created exercises."
       ]
     }
   ],
   "publications": [
+    {
+      "name": "Say What? Examining Text and Voice Input Modalities for Prompt-Based Programming in Computing Education",
+      "authors": [
+        "Kaitlin Riegel",
+        "Yan Cathy Hua",
+        "Paul Denny",
+        "Victor-Alexandru Pădurean",
+        "Juho Leinonen",
+        "James Prather",
+        "Adish Singla"
+      ],
+      "publisher": "In ITiCSE, 2026.",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1145/3803400.3809397"
+    },
     {
       "name": "Interleaving Natural Language Prompting with Code Editing for Solving Programming Tasks with Generative AI Models",
       "authors": [
@@ -135,9 +173,44 @@
         "James Prather",
         "Adish Singla"
       ],
-      "publisher": "To appear in ITiCSE, 2026.",
+      "publisher": "In ITiCSE, 2026.",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2509.14088"
+      "url": "https://doi.org/10.1145/3803400.3809312"
+    },
+    {
+      "name": "Understanding Student Perceptions, Mistakes, and Debugging Approaches when Solving Natural Language Programming Tasks",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Kaitlin Riegel",
+        "Gweneth Barbre",
+        "Musa Blake",
+        "Paul Denny",
+        "Alkis Gotovos",
+        "Juho Leinonen",
+        "Stephen MacNeil",
+        "James Prather",
+        "Adish Singla"
+      ],
+      "publisher": "In ICER, 2026.",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1145/3765964.3811639"
+    },
+    {
+      "name": "When AI Is Wrong on Purpose: How Students Respond to Buggy GenAI Code",
+      "authors": [
+        "Victor-Alexandru Pădurean",
+        "Kaitlin Riegel",
+        "Alkis Gotovos",
+        "Jyotika Mahapatra",
+        "Ahana Ghosh",
+        "Paul Denny",
+        "Juho Leinonen",
+        "James Prather",
+        "Adish Singla"
+      ],
+      "publisher": "In ICER, 2026.",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1145/3765964.3811667"
     },
     {
       "name": "Synthesizing High-Quality Programming Tasks with LLM-Based Expert and Student Agents",
@@ -311,64 +384,48 @@
   ],
   "skills": [
     {
-      "name": "Programming",
-      "level": "Advanced",
-      "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Java",
-        "JavaScript",
-        "SQL",
-        "C"
-      ]
-    },
-    {
       "name": "ML / GenAI",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
       "keywords": [
         "PyTorch",
-        "TensorFlow/Keras",
         "Hugging Face Transformers",
-        "Retrieval-Augmented Generation",
+        "Supervised fine-tuning (SFT)",
+        "LoRA / PEFT",
+        "RAG",
+        "LLM agents",
+        "Multimodal AI",
         "LangChain",
         "LangGraph",
         "LightRAG"
       ]
     },
     {
-      "name": "Data / Databases",
+      "name": "Programming / Data",
       "level": "Advanced",
-      "icon": "fa-solid fa-database",
+      "icon": "fa-solid fa-code",
       "keywords": [
+        "Python",
         "NumPy",
         "Pandas",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB"
+        "SQL",
+        "Java",
+        "C",
+        "JavaScript"
       ]
     },
     {
-      "name": "Frameworks",
-      "level": "Advanced",
-      "icon": "fa-solid fa-layer-group",
-      "keywords": [
-        "Django",
-        "React",
-        "Spring"
-      ]
-    },
-    {
-      "name": "Tools / Cloud",
+      "name": "Systems / Tools",
       "level": "Advanced",
       "icon": "fa-solid fa-toolbox",
       "keywords": [
-        "Git",
+        "AWS",
         "Docker",
         "Linux",
-        "AWS Bedrock",
+        "Git",
         "Google Cloud",
-        "LaTeX"
+        "PostgreSQL",
+        "TensorFlow / Keras"
       ]
     }
   ],
@@ -432,19 +489,33 @@
     {
       "organization": "Research Community",
       "position": "Reviewer",
-      "summary": "NeurIPS 2025, TMLR 2025, ITiCSE 2025, ISSEP 2025",
+      "summary": "NeurIPS 2025, TMLR 2025, ITiCSE 2025, ISSEP 2025, EDM 2026, Koli Calling 2026, and ACM TOCE 2026",
       "startDate": "2025-01-01",
-      "endDate": "2025-12-31",
+      "endDate": "2026-12-31",
       "highlights": []
     },
     {
-      "organization": "Mentorship for Relief Program, MPI-SWS",
+      "organization": "Jyotika Mahapatra",
+      "position": "Master’s Thesis Mentor",
+      "summary": "Evaluating the Quality of Tasks in Conversational Programming",
+      "highlights": [],
+      "startDate": "2025-08-01",
+      "endDate": "2026-07-31"
+    },
+    {
+      "organization": "Yang Li",
+      "position": "Master’s Thesis Mentor",
+      "summary": "Reward Learning for Visual Task Synthesis",
+      "highlights": [],
+      "startDate": "2023-08-01",
+      "endDate": "2024-03-31"
+    },
+    {
+      "organization": "Othman Shbeir",
       "position": "Mentor",
-      "summary": "Mentoring Othman Shbeir",
-      "startDate": "2024-01-01",
-      "highlights": [
-        "2024 - ongoing"
-      ]
+      "summary": "Mentorship for Relief Program",
+      "highlights": [],
+      "startDate": "2024-12-01"
     }
   ]
 }
